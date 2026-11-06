@@ -1,0 +1,17 @@
+protocole SSH:
+
+-Allez sur le terminal Debian télécharger SSH avec "sudo apt install openssh-server"
+
+-Obtenir l'ip du serveur Debian avec "ip a"
+
+-Allez sur le power shell Windows et mettre "ssh nom_d'utilisateur@ip"
+
+-Saisir le mdp du compte Debian puis comfirmer l'empreinte du serveur en tapant "yes"
+
+-Apres sa on est connecter.
+
+Avantage en sécurité: 
+
+-Chiffrage bout en bout  illisible pour quelqu'un qui veut intercepter le réseau 
+
+-Authentification mdp 

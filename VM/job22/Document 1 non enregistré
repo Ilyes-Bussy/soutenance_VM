@@ -1,0 +1,3 @@
+Crée un snapshot :
+
+L’intérêt des snapshots dans la gestion des systèmes virtualisés est le suivant : si l’on supprime par erreur un dossier ou un fichier important, ou un élément que l’on ne voulait pas supprimer, et que l’on ne peut plus le récupérer autrement, le snapshot nous offre une sauvegarde de la machine telle qu’elle était avant l’erreur

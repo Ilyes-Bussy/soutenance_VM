@@ -1,0 +1,20 @@
+L'architecture du réseau virtuel :
+2 VM une windows et une debian
+la windows un reseau NAT vmnet8 
+la debian 2 reseau un NAT vmnet8 et host-only
+
+Les étapes de configuration :
+Configurer une liaison serveur ssh, liaison reseau configuration des ram alloué etc...
+
+Les script utilisés :
+Un script windows pour crée un dossier nommer la date ou on l'execute et qui y copy un fichier texte.
+Un script debian qui affiche la date, l'espace disque et l'ip
+
+Les mesures de sécurité qui ont été mises en place :
+Pare-feu ufw sous debian qui bloque tout ce qui rentre sauf pour les port 22 et 80 (SSH,HTTP)
+Pare-feu windows déjà configurer
+Snapshot
+
+Les difficultés rencontrées et leur solution :
+Windows ne recevais pas les ping donc j'ai du activer la demande de ping
+Debian ne voulais pas installer l'ufw j'ai du ignorer la cherche que par le cd et mettre le lien debian pour qu'il puisse installer les appliction. 
